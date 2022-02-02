@@ -5,9 +5,79 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to top, #36454f, #ececec);
+  padding: 0 0 20px 0;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+html,
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#pic {
+  max-height: 400px;
+}
+
+.card {
+  box-shadow: 0 2px 2px 0 grey;
+}
+
+#large-img {
+  max-height: 500px;
+  width: 100vw;
+}
+
+.small-img {
+  max-height: 400px;
+  max-width: 100%;
+}
+
+#space {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact {
+  border-top: 5px solid black;
+}
+
+/* body {
+  background: linear-gradient(to top, #36454f, #ececec);
+  padding: 0 0 20px 0;
+} */
+
+h3 {
+  color: #ececec;
+}
+
+.custom > a {
+  text-decoration: none;
+  color: #ececec;
+}
+
+.custom > a:hover {
+  color: #aec6cf;
+}
+
+.btn-info {
+  background-color: #36454f !important;
+  border-color: #ececec !important;
+}
+
+.figure-caption {
+  color: #ececec !important;
+}
+
+.h4 {
+  color: #ececec;
+}
+
+.imgmd{
+  max-height: 500px !important;
 }
