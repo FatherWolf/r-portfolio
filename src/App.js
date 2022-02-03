@@ -3,7 +3,7 @@ import Navbar from './Components/Nav/Navigation'
 import Project from './Components/Projects/Project';
 import About from './Components/About/About'
 import Resume from './Components/Resume/Resume'
-// import Contact from ''
+import Contact from './Components/Contact/Contact'
 import { useState } from 'react';
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
       <div>
         {activeTab === 'Projects' ? <Project /> : null}
         {activeTab === 'About' ? <About /> : null}
-        {/* {activeTab === 'Contact' ? <Contact /> : null} */}
+        {activeTab === 'Contact' ? <Contact /> : null}
         {activeTab === 'Resume' ? <Resume /> : null}
       </div>
     </div>
