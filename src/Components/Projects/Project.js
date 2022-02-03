@@ -18,7 +18,7 @@ export default function Project() {
             <figure className="figure">
               <h4>Plant Tracker</h4>
               <a href="https://desolate-stream-26867.herokuapp.com/">
-                <img src={img5} id="large-img" className="figure-img img-fluid rounded"/>
+                <img src={img5} id="large-img" className="figure-img img-fluid rounded" alt="PlantTracker"/>
 
                 </a>
               <figcaption className="figure-caption">Application to track and share differnt house plants with friends.</figcaption>
@@ -61,7 +61,7 @@ export default function Project() {
             <figure className="figure">
               <h4 className="h4">Weather Dashbord</h4>
               <a href="https://jacobotaylor.github.io/band-weather-app/">
-                <img src={img6}
+                <img src={img1}
                   alt="assignments"/></a>
               <figcaption className="figure-caption">A colabrative project where we built a site to show the weather and
                 display a gif based off of the current forcast.</figcaption>
@@ -75,7 +75,7 @@ export default function Project() {
             <figure className="figure">
               <h4 className="h4">Weather Dashbord</h4>
               <a href="https://jacobotaylor.github.io/band-weather-app/">
-                <img src={img6}
+                <img src={img3}
                   alt="assignments"/></a>
               <figcaption className="figure-caption">A colabrative project where we built a site to show the weather and
                 display a gif based off of the current forcast.</figcaption>
@@ -89,7 +89,7 @@ export default function Project() {
             <figure className="figure">
               <h4 className="h4">Weather Dashbord</h4>
               <a href="https://jacobotaylor.github.io/band-weather-app/">
-                <img src={img6}
+                <img src={img4}
                   alt="assignments"/></a>
               <figcaption className="figure-caption">A colabrative project where we built a site to show the weather and
                 display a gif based off of the current forcast.</figcaption>
